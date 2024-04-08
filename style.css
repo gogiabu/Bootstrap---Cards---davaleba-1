@@ -1,0 +1,23 @@
+
+.image_b{
+    width: 30px;
+    height: 30px;
+}
+.text{
+    margin: auto;
+}
+.button_1{
+    width: 80%;
+} 
+.burger_menu{
+    display: none;
+}
+@media (max-width: 767.98px) {
+    .burger_menu{
+        display: flex !important;
+    }
+    .page_navbar{
+        display: none !important;
+    }
+
+}
